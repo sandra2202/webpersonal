@@ -1,14 +1,10 @@
-<h1>Mi Web Personal Sandra</h1>
+{% extends 'core/base.html' %}
 
-<ul>
-    <li><a href="/">Portada</a></li>
-    <li><a href="about-me">Acerca de </a></li>
-    <li><a href="contact">Contacto</a></li>
-    <li><a href="portfolio">Portafolio </a></li>
-   
-</ul>
+{% block title %}Acerca de{% endblock %}
 
+{% block content %}
+    <h2>Acerca de</h2>
+            
+    <p>Hola mi nombre es Sandra Gutierrez, me gusta programar y estoy apfrendiendo Django</p>
 
-<h2>Acerca de</h2>
-        
-<p>Hola mi nombre es Sandra Gutierrez, me gusta programar y estoy apfrendiendo Django</p>
+{% endblock %}
